@@ -23,3 +23,4 @@ Route::post('/buku/store', 'ControllerBuku@store')->name('routeStore');
 Route::post('/buku/destroy/{id}', 'ControllerBuku@destroy')->name('buku.destroy');
 Route::get('/buku/edit/{id}', 'ControllerBuku@edit')->name('buku.edit');
 Route::post('/buku/update/{id}', 'ControllerBuku@update')->name('buku.update');
+Route::get('/buku/search', 'ControllerBuku@search')->name('buku.search');

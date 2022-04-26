@@ -3,6 +3,14 @@
 @section('content')
 	<div class="container">
 		<h4>Tambah Buku</h4>
+    @if (count($errors) > 0)
+      <ul>
+        @foreach ($errors->all() as $error)
+          <li>{{ $error }}</li>
+        @endforeach
+      </ul>
+    @endif
+
 		<form method="post" action="{{ route('routeStore') }}">
       @csrf
       <div class="form-group row">
