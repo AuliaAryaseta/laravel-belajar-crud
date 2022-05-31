@@ -32,7 +32,7 @@
       <div class="form-group row">
         <div class="col-sm-10">
           <button type="submit" class="btn btn-success">Simpan</button>
-          <a href="/buku" class="btn btn-warning">Batal</a>
+          <a href="/buku" class="btn btn-warning text-white">Batal</a>
         </div>
       </div>
     </form>

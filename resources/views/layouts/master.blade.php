@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="{{ asset('css/bootstrap.min.css')}}" >
 	<link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('css/bootstrap-datepicker.css') }}">
+    <link href="{{ asset('iconBuku.ico')}}" rel="icon">
     <script src="{{ asset('js/jquery.js') }}"></script>
     <script src="{{ asset('js/bootstrap-datepicker.js') }}"></script>
 </head>
